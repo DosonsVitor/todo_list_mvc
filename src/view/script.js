@@ -1,24 +1,5 @@
 var tarefas = [];
 
-tarefas.push({
-    descricao: "teste",
-    hora: "18:00",
-    id: "5532345646",
-    status: "open"},
-         {
-    descricao: "teste 02",
-    hora: "18:00",
-    id: "5545632478946",
-    status: "closed" },
-        {
-    descricao: "teste 03",
-    hora: "18:00",
-    id: "5545646",
-    status: "canceled"
-});
-
-atualizarTarefas();
-
 document.querySelector("form").addEventListener("submit", event => {
 	
 	novaTarefa();
